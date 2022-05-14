@@ -22,7 +22,7 @@ header h2 {
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    background-image: linear-gradient(to right, #444244, #9b7d44, #9f99a0);
     color:white;
     
 }
@@ -51,11 +51,19 @@ header h2 {
 }
 
 .carousel {
-    border: solid black 1px;
+    border: solid black 5px;
    
 }
 
 
+.background1 {
+    background-image: url(./background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
 
 .campsites {
     background-color: rgba(0, 0, 0, 0.5);
@@ -63,7 +71,9 @@ header h2 {
 }
 
 
-
+.navbar{
+    background-color: grey;
+}
 
 .sec-footer {
     background-image: linear-gradient(#6b6b6e, white);
@@ -83,3 +93,4 @@ header h2 {
     text-align: center;
     font-size: 25px;
  } 
+
